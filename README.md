@@ -1,3 +1,8 @@
+This starter is a rewrite of my Semantic Kernel practice project.  
+For more details on getting started with Microsoft Agent Framework and agentic workflows:  
+[My LinkedIn article: "Multi agent Hangman game with Semantic Kernel Practice project"]([https://www.linkedin.com/posts/yourusername/your-article-link](https://www.linkedin.com/pulse/multi-agent-hangman-game-semantic-kernel-practice-patrick-koorevaar-1mvef/?trackingId=CU8au4NVTjmTsNrn8MXoVw%3D%3D))
+
+
 ### Local Inference Setup (Intel GPU Optimized via IPEX-LLM — Recommended for Windows!)
 This example uses a portable Ollama build with **IPEX-LLM** integration for fast, stable local inference on Intel GPUs (Arc / Xe Graphics).
 

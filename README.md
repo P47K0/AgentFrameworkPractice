@@ -1,5 +1,5 @@
 This starter is a rewrite of my Semantic Kernel practice project.  
-For more details on getting started with Microsoft Agent Framework and agentic workflows:  
+For more details on my journey to make my first AI project and tips see:  
 [My LinkedIn article: "Multi agent Hangman game with Semantic Kernel Practice project"](https://www.linkedin.com/pulse/multi-agent-hangman-game-semantic-kernel-practice-patrick-koorevaar-1mvef/?trackingId=CU8au4NVTjmTsNrn8MXoVw%3D%3D)
 
 

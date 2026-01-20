@@ -5,7 +5,7 @@ This example uses a portable Ollama build with **IPEX-LLM** integration for fast
 - Standard Ollama can lag (> 60s responses on 32B models) or reboot frequently without full optimization.
 - IPEX-LLM version: Smooth, high-token-rate runs on Intel hardware — no NVIDIA needed!
 
-**Tested on**: Windows with Intel iGPU + latest drivers.
+**Tested on**: Windows with Intel Arc iGPU + latest drivers.
 
 **Quick Setup Steps** (Portable — No Full Install Needed):
 1. **Update Intel Drivers** (essential for stability!):  

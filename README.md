@@ -2,7 +2,6 @@ This starter is a rewrite of my Semantic Kernel practice project.
 For more details on my journey to make my first AI project and tips see:  
 [My LinkedIn article: "Multi agent Hangman game with Semantic Kernel Practice project"](https://www.linkedin.com/pulse/multi-agent-hangman-game-semantic-kernel-practice-patrick-koorevaar-1mvef/?trackingId=CU8au4NVTjmTsNrn8MXoVw%3D%3D)
 
-
 ### Local Inference Setup (Intel GPU Optimized via IPEX-LLM — Recommended for Windows!)
 This example uses a portable Ollama build with **IPEX-LLM** integration for fast, stable local inference on Intel GPUs (Arc / Xe Graphics).
 
@@ -34,3 +33,24 @@ This example uses a portable Ollama build with **IPEX-LLM** integration for fast
 NVIDIA/Standard Ollama users: Use official Ollama download + CUDA for equivalent performance.
 
 Feedback welcome if issues on your hardware!
+
+
+## Progress & What's Next
+This repo is a living learning project: I'm gradually evolving a multi-agent Hangman game to explore modern patterns in **Microsoft Agent Framework** (the successor direction after AutoGen/Semantic Kernel agent chat experiments).
+
+### Current Milestone (as of January 2026)
+- Basic multi-agent setup with Ollama IPEX-LLM for local Intel GPU inference
+- Game logic via plugin/tools
+- Manual chat loop
+
+### Planned Next Steps (approximate order, subject to change)
+1. Replace manual chat loop by GroupChat
+2. Add Coordinator agent who does game start and turn selection
+3. Dynamic guesser count (2–4 players randomized per game)
+4. Let Coordinator start new game with random players after game ends
+
+
+I'm adding one meaningful improvement roughly every 1–2 weeks when time allows.  
+Feel free to ⭐ watch the repo if you're interested in following along, or open an issue/discussion with suggestions/questions — feedback on Intel GPU setups or prompt ideas is especially welcome!
+
+Previous versions will get **tags** (e.g. `v0.1-initial`, `v0.2-groupchat`, etc.) so you can checkout exactly how it looked at each stage.
